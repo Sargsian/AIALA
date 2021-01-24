@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+h1 {
+  position: absolute;
+  color: white;
+  top: 34.5%;
+  font-size: 3vw;
+}
+
+.test {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#fomButton {
+  border-style: none;
+  font-weight: 700;
+  background-color: #E9523A;
+  color: white;
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  border-radius: 300px;
+  outline: none;
+}
+
+section {
+  top: 59%;
+  position: absolute;
+
+}
+
+#fomButton:hover {
+background-color: #973222;
+}
