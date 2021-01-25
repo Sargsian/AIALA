@@ -1,0 +1,21 @@
+* {
+    font-size: 20px;
+}
+p {
+    display: inline-block;
+    color: black;
+    margin: 7px 0px;
+    padding: 5px;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.notDone {
+    background-color: red;
+}
+.done {
+    background-color: #82E83F;
+    
+}
